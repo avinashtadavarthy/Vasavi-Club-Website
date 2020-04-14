@@ -1,0 +1,36 @@
+html * {
+    font-family: 'Montserrat';
+}
+
+#title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#logo {
+    margin: 10px;
+    flex: 1;
+    object-fit: contain;
+    height: 100px;
+}
+
+#title-text {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#vasavimata {
+    margin: 10px;
+    flex: 1;
+    object-fit: contain;
+    height: 100px;
+}
+
+.path {
+    margin: 10px;
+    text-align: right;
+}
+
+.path p {
+    display: inline;
+}
