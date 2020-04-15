@@ -3,12 +3,12 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Vasavi Club 2* KCGF Elite Chennai</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vasavi Club 2* KCGF Elite Chennai - How to Join</title>
     <!-- CSS files -->
-    <link rel="stylesheet" href="../css/standard.css">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/navbar.css">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="../css/stylesmobile.css">
     <!-- JS files -->
     <script src="../script.js"></script>
     <!-- Other -->
@@ -18,54 +18,61 @@
     <link rel="apple-touch-icon" sizes="180x180" href="../assets/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon-16x16.png">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 
 <body>
-    <div  include-html="../html/components/header.html"></div>
+    <div class="container-fluid">
+        <div include-html="../html/components/header.html"></div>
 
-    <div class="navbar">
-        <a href="../index.html">Home</a>
-        <div class="dropdown">
-            <button class="dropbtn">About
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-                <a href="../html/about/aboutvasavi.html">About Vasavi Clubs</a>
-                <a href="../html/about/aboutus.html">About 2* KCGF Elite Chennai</a>
-                <a href="../html/about/board2020.html">Board of 2020</a>
-                <a href="../html/about/structure.html">Structure</a>
-                <a href="../html/about/pastpst.html">Past PSTs</a>
-                <a href="../html/about/prayer.html">Prayer, Pledge & Oath</a>
+        <div class="navbar row">
+            <a href="../index.html">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn">About
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="../html/about/aboutvasavi.html">About Vasavi Clubs</a>
+                    <a href="../html/about/aboutus.html">About 2* KCGF Elite Chennai</a>
+                    <a href="../html/about/board2020.html">Board of 2020</a>
+                    <a href="../html/about/structure.html">Structure</a>
+                    <a href="../html/about/pastpst.html">Past PSTs</a>
+                    <a href="../html/about/prayer.html">Prayer, Pledge & Oath</a>
+                </div>
             </div>
-        </div>
-        <a href="../html/members.html">Members</a>
-        <div class="dropdown">
-            <button class="dropbtn">Archives
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-                <a href="../html/archives/photos.html">Photos</a>
-                <a href="../html/archives/pastprojects.html">Past Projects</a>
-                <a href="../html/archives/tours.html">Tours</a>
-                <a href="../html/archives/videos.html">Videos</a>
+            <a href="../html/members.html">Members</a>
+            <div class="dropdown">
+                <button class="dropbtn">Archives
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="../html/archives/photos.html">Photos</a>
+                    <a href="../html/archives/pastprojects.html">Past Projects</a>
+                    <a href="../html/archives/tours.html">Tours</a>
+                    <a href="../html/archives/videos.html">Videos</a>
+                </div>
             </div>
+            <a href="../html/projects.html">Projects</a>
+            <a href="../html/howtojoin.html" class="active">How to Join</a>
+            <a href="../html/contact.html">Contact Us</a>
+            <a href="../html/district.html">VCI & District</a>
         </div>
-        <a href="../html/projects.html">Projects</a>
-        <a href="../html/howtojoin.html" class="active">How to Join</a>
-        <a href="../html/contact.html">Contact Us</a>
-        <a href="../html/district.html">VCI & District</a>
-    </div>
 
-    <div class="path">
-        <i class="fa fa-home"></i>
-        <p>/ How to Join</p>
-    </div>
+        <div class="path">
+            <i class="fa fa-home"></i>
+            <p>/ How to Join</p>
+        </div>
 
-    <div  include-html="../html/components/footer.html"></div>
-    
-    <script>
-        includeHTML();
-    </script>
+        <div include-html="../html/components/footer.html"></div>
+
+        <script>
+            includeHTML();
+        </script>
+    </div>
 
 </body>
 
