@@ -63,3 +63,17 @@
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+@media (max-width: 768px) {
+    .navbar a {
+        font-size: 14px;
+    }
+    
+    .dropdown .dropbtn {
+        font-size: 14px;
+    }
+    
+    .dropdown-content {
+        min-width: 240px;
+    }
+}

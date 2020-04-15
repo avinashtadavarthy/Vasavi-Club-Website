@@ -1,0 +1,13 @@
+@media (max-width: 768px) {
+    h1 {
+        font-size: 20px !important;
+    }
+
+    #logo {
+        height: 80px;
+    }
+
+    #vasavimata {
+        height: 80px;
+    }
+}
