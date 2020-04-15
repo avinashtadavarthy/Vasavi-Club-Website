@@ -36,16 +36,19 @@ html * {
     display: inline;
 }
 
+.row {
+    text-align: center;
+}
+
 footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
     width: 100%;
-    border-top: 1px solid #E0E0E0;
-    position: absolute;
-    bottom: 0px;
     background-color: yellowgreen;
     text-align: center;
     font-size: 12px;
     padding-top: 5px;
-    align-items: center;
 }
 
 footer p {
