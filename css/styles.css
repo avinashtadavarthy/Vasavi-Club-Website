@@ -6,25 +6,28 @@ html * {
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: greenyellow;
+    background-color: #11998e;
+    /* background: linear-gradient(to top, #11998e, #38ef7d); */
 }
 
 #logo {
     margin: 10px;
     flex: 1;
     object-fit: contain;
-    height: 150px;
+    height: 110px;
 }
 
 #title-text {
     font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 500;
 }
 
 #vasavimata {
     margin: 10px;
     flex: 1;
     object-fit: contain;
-    height: 150px;
+    height: 110px;
 }
 
 .path {
@@ -45,7 +48,7 @@ footer {
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: yellowgreen;
+    background-color: #38ef7d;
     text-align: center;
     font-size: 12px;
     padding-top: 5px;
