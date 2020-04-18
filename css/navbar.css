@@ -5,7 +5,8 @@
 
 .navbar a {
     display: inline-block;
-    font-size: 14px;
+    /* font-size: 14px; */
+    font-size: small;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -21,7 +22,7 @@
 }
 
 .dropdown .dropbtn {
-    font-size: 14px;
+    font-size: small;
     border: none;
     outline: none;
     color: white;
@@ -63,10 +64,10 @@
 }
 
 @media (max-width: 768px) {
-    .navbar a {
+    /* .navbar a {
         font-size: 14px;
-    }
-    .dropdown .dropbtn {
+    } */
+    /* .dropdown .dropbtn {
         font-size: 14px;
-    }
+    } */
 }
