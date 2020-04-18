@@ -1,12 +1,24 @@
+:root {
+    --global-font-family: 'Montserrat', sans-serif;
+    --global-nav-background: #162a51;
+    --global-nav-active: #2351a3;
+    --global-header-gradient: linear-gradient( #a5c9eb, #dae0f2, #ffffff);
+    --global-footer-background: #a5c9eb;
+    /* --global-color-primary: #88498f;
+    --global-color-secondary: #779fa1;
+    --global-color-warning: #e28413;
+    --global-color-danger: #ff6542; */
+}
+
 html * {
-    font-family: 'Montserrat';
+    font-family: var(--global-font-family);
 }
 
 #title {
     display: flex;
     flex-direction: row;
     align-items: center;
-    background: linear-gradient(to top, #a5c9eb, #dae0f2, #ffffff);
+    background: var(--global-header-gradient);
     /* background-image: linear-gradient(to top, #a5c9eb, #dae0f2); */
 }
 
@@ -18,7 +30,6 @@ html * {
 }
 
 #title-text {
-    font-family: 'Montserrat', sans-serif;
     color: black;
     font-weight: 400;
     font-size: x-large;
@@ -49,7 +60,7 @@ footer {
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: #a5c9eb;
+    background-color: var(--global-footer-background);
     text-align: center;
     font-size: 12px;
     padding-top: 5px;
