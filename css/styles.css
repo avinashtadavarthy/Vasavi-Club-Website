@@ -6,8 +6,7 @@ html * {
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: #11998e;
-    /* background: linear-gradient(to top, #11998e, #38ef7d); */
+    background: linear-gradient(to top, #11998e, #38ef7d);
 }
 
 #logo {
