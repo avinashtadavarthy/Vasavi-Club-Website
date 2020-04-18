@@ -1,5 +1,5 @@
 .navbar {
-    background-color: #333333;
+    background-color: #162a51;
     text-align: center;
 }
 
@@ -14,7 +14,7 @@
 }
 
 .active {
-    background-color: red;
+    background-color: #2351a3;
 }
 
 .dropdown {
@@ -27,7 +27,8 @@
     outline: none;
     color: white;
     padding: 14px 16px;
-    background-color: #333333;
+    /* background-color: #333333; */
+    background-color: #162a51;
     font-family: 'Montserrat';
 }
 

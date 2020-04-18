@@ -6,7 +6,8 @@ html * {
     display: flex;
     flex-direction: row;
     align-items: center;
-    background: linear-gradient(to top, #11998e, #38ef7d);
+    background: linear-gradient(to top, #a5c9eb, #dae0f2, #ffffff);
+    /* background-image: linear-gradient(to top, #a5c9eb, #dae0f2); */
 }
 
 #logo {
@@ -18,8 +19,9 @@ html * {
 
 #title-text {
     font-family: 'Montserrat', sans-serif;
-    color: white;
-    font-weight: 500;
+    color: black;
+    font-weight: 400;
+    font-size: x-large;
 }
 
 #vasavimata {
@@ -47,7 +49,7 @@ footer {
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: #38ef7d;
+    background-color: #a5c9eb;
     text-align: center;
     font-size: 12px;
     padding-top: 5px;
