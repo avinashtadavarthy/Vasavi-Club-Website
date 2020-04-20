@@ -1,3 +1,7 @@
+:root {
+    --global-font-size-navbar: medium;
+}
+
 .navbar {
     background-color: var(--global-nav-background);
     text-align: center;
@@ -6,7 +10,7 @@
 .navbar a {
     display: inline-block;
     /* font-size: 14px; */
-    font-size: small;
+    font-size: var(--global-font-size-navbar);
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -22,7 +26,7 @@
 }
 
 .dropdown .dropbtn {
-    font-size: small;
+    font-size: var(--global-font-size-navbar);
     border: none;
     outline: none;
     color: white;

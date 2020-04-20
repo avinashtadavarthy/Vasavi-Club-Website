@@ -1,3 +1,4 @@
+// function to include HTML code snippets
 function includeHTML() {
     var z, i, elmnt, file, xhttp;
     /* Loop through a collection of all HTML elements: */
@@ -29,15 +30,4 @@ function includeHTML() {
 // Carousel auto-scrolling
 $('.carousel').carousel({
     interval: 1000
-});
-
-// Carousel swiping
-$(".carousel").swipe({
-    swipe: function (event, direction, distance, duration, fingerCount, fingerData) {
-
-        if (direction == 'left') $(this).carousel('next');
-        if (direction == 'right') $(this).carousel('prev');
-
-    },
-    allowPageScroll: "vertical"
 });
