@@ -2,7 +2,8 @@
     --global-font-family: 'Manrope', sans-serif;
     --global-nav-background: #162a51;
     --global-nav-active: #2351a3;
-    --global-header-gradient: linear-gradient( #a5c9eb, #dae0f2, #ffffff);
+    --global-header-gradient: linear-gradient(to top, #162a51, #304d88, #3f5d9b);
+    /* --global-header-gradient: linear-gradient( #a5c9eb, #dae0f2, #ffffff); */
     --global-footer-background: #a5c9eb;
 }
 
@@ -38,6 +39,7 @@ html, body {
     color: black;
     font-weight: 400;
     font-size: x-large;
+    color: white;
 }
 
 #vasavimata {
