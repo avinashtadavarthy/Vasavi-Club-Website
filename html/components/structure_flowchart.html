@@ -1,0 +1,228 @@
+<style>
+    * {
+        position: relative;
+        margin: 0;
+        padding: 0;
+        transition: all ease .4s;
+        text-align: center;
+    }
+
+    .nav {
+        margin: 20px auto;
+        width: fit-content;
+        min-height: auto;
+    }
+
+    .nav ul {
+        position: relative;
+        padding-top: 30px;
+    }
+
+    .nav li {
+        position: relative;
+        padding: 20px 3px 0 3px;
+        float: left;
+        text-align: center;
+        list-style-type: none;
+    }
+
+    .nav li::before,
+    .nav li::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 50%;
+        width: 50%;
+        height: 20px;
+        border-top: 1px solid #000;
+    }
+
+    .nav li::after {
+        left: 50%;
+        right: auto;
+        border-left: 1px solid #000;
+    }
+
+    .nav li:only-child::after,
+    .nav li:only-child::before {
+        content: '';
+        display: none;
+    }
+
+    .nav li:only-child {
+        padding-top: 0;
+    }
+
+    .nav li:first-child::before,
+    .nav li:last-child::after {
+        border: 0 none;
+    }
+
+    .nav li:last-child::before {
+        border-right: 1px solid #000;
+        border-radius: 0 5px 0 0;
+    }
+
+    .nav li:first-child::after {
+        border-radius: 5px 0 0 0;
+    }
+
+    .nav ul ul::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 50%;
+        border-left: 1px solid #000;
+        width: 0;
+        height: 30px;
+    }
+
+    .nav li a {
+        display: inline-block;
+        padding: 10px;
+        min-width: 250px;
+        box-shadow: 2px 2px 6px grey;
+        line-height: 1.6;
+
+        border-radius: 5px;
+        background-color: white;
+
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #000;
+        font-size: 14px;
+    }
+
+    .nav strong {
+        font-size: 20px;
+    }
+
+    .nav li a:hover,
+    .nav li a:hover+ul li a {
+        color: #000;
+        background: #c8e4f8;
+    }
+
+    .nav li a:hover+ul li::after,
+    .nav li a:hover+ul li::before,
+    .nav li a:hover+ul::before,
+    .nav li a:hover+ul ul::before {
+        content: '';
+        border-color: #9eafcc;
+    }
+</style>
+<nav class="nav">
+    <ul>
+        <li>
+            <a><strong>vci</strong><br>international president<br>international secretary<br>other team</a>
+            <ul>
+                <li>
+                    <a><strong>district</strong><br>governer<br>district secretary<br>district treasurer<br>other
+                        team<br></a>
+                    <ul>
+                        <li>
+                            <a><strong>region</strong><br>region chairman<br>region secretary<br></a>
+                            <ul>
+                                <li>
+                                    <a><strong>zone</strong><br>zone chairperson<br></a>
+                                    <ul>
+                                        <li>
+                                            <a><strong>club (no:
+                                                    1392)</strong><br>president<br>secretary<br>treasurer<br>board of
+                                                directors<br>members<br></a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <!-- <ul>
+        <li>
+            <a href="#">Home</a>
+            <ul>
+                <li>
+                    <a href="#">Lab</a>
+                    <ul>
+                        <li>
+                            <a href="#">Code</a>
+                            <ul>
+                                <li>
+                                    <a href="#">Html</a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Css</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Jquery</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Graph</a>
+                            <ul>
+                                <li>
+                                    <a href="#">Image</a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Design</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Yolo</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                    <ul>
+                        <li>
+                            <a href="#">Vcard</a>
+                        </li>
+                        <li>
+                            <a href="#">Map</a>
+                        </li>
+                        <li>
+                            <a href="#">Yolo<br>Tolo<br>Tobolol</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul> -->
+</nav>
+
+
+
+<!-- 
+    vci
+        internationl president
+        international secretary
+        other team
+    district
+        governer
+        district secretary
+        district treasurer
+        other team
+    region
+        region chairman
+        region secretary
+    zone
+        zone chairperson
+    club - number 1392
+        president
+        secretary
+        treasurer
+        board of directors
+        members
+ -->

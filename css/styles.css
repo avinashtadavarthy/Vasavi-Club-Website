@@ -68,6 +68,37 @@ body {
     text-align: center;
 }
 
+.pstsub {
+    background-color: var(--global-nav-active);
+    color: white;
+    padding: 15px;
+    border-bottom: 5px solid navy;
+    text-align: center;
+}
+
+.pastpst h3 {
+    text-align: center;
+}
+
+.pastpst table {
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 300px;
+}
+
+.pastpst tr:nth-child(even) {
+    background-color: rgb(223, 221, 221);
+}
+
+.pastpst tr:nth-child(odd) {
+    background-color: rgba(240, 240, 240);
+}
+
+.pastpst table td {
+    padding: 2px 5px;
+    font-size: 20px;
+}
+
 .questionnaire {
     text-align: center;
 }
