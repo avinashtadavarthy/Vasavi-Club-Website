@@ -11,7 +11,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <!-- JS files -->
-    <script src="../../script.js"></script>
+    <script src="../../js/script.js"></script>
     <!-- CSS files -->
     <link rel="stylesheet" href="../../css/styles.css">
     <link rel="stylesheet" href="../../css/navbar.css">
@@ -68,18 +68,20 @@
                 <p>/ About / Board of 2020</p>
             </div>
 
-
-            <div class="underdevelopment row">
-                <img src="../../assets/develop.png" height="300px">
-                <p class="devtext" style="font-size: 24px;">
-                    This website is under development
-                </p>
+            <div id="boarddata">
+                <h3 class="pstsub">PSTs</h3>
+                <div id="boardpst"></div>
+                <br><br>
+                <h3 class="pstsub">Other Board</h3>
+                <div id="boardothers"></div>
+                <!-- filled up with js -->
             </div>
 
         </div>
 
-        <div include-html="../components/sticky_footer.html"></div>
+        <div include-html="../components/normal_footer.html"></div>
 
+        <script src="../../js/board2020.js"></script>
         <script>
             includeHTML();
         </script>

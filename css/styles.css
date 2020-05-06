@@ -74,6 +74,7 @@ body {
     padding: 15px;
     border-bottom: 5px solid navy;
     text-align: center;
+    width: 100%;
 }
 
 .pastpst h3 {
@@ -97,6 +98,61 @@ body {
 .pastpst table td {
     padding: 2px 5px;
     font-size: 20px;
+}
+
+#boarddata {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#boardpst {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#boardothers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.boardelement {
+    text-align: center;
+    background: linear-gradient(to right, #141e30, #243b55);
+    /* background-image: url("../assets/board2020/member_background.jpg"); */
+    color: white;
+    margin: 15px;
+    padding: 15px;
+    min-width: 350px;
+    box-shadow: 2px 2px 6px grey;
+    border-radius: 15px;
+}
+
+#membersdata {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.memberelement {
+    background-color: white;
+    box-shadow: 2px 2px 6px grey;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    color: black;
+    min-width: 310px;
+    border-radius: 10px;
+}
+
+.memberelement:hover {
+    background-color: var(--global-nav-active);
+    color: white;
 }
 
 .questionnaire {

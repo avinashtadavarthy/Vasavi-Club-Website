@@ -31,3 +31,8 @@ function includeHTML() {
 $('.carousel').carousel({
     interval: 1000
 });
+
+// Convert text to propercase
+String.prototype.toProperCase = function () {
+    return this.replace(/\w\S*/g, function (txt) { return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase(); });
+};
