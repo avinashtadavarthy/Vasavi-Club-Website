@@ -1,6 +1,6 @@
 var board2020 = [
     {
-        "vn_name": "Vn 2* KCGF T. V. RAMAKUMAR",
+        "vn_name": "Vn 2* KCGF T. V. RAMA KUMAR",
         "vn_desig": "President",
         "va_name": "Vn T. GAYATHRI",
         "va_desig": "Vanitha President"
@@ -94,8 +94,8 @@ board2020.forEach(element => {
 
     str += "<div class='boardelement'>";
 
-    str += element['vn_desig'].toUpperCase() + "<br><strong style='font-size: 16px'>" + element['vn_name'].split('KCGF')[0] + "KCGF" + element['vn_name'].split('KCGF')[1].toProperCase() + '</strong><br><br>';
-    str += element['va_desig'].toUpperCase() + "<br><strong style='font-size: 16px'>" + element['va_name'].toProperCase() + '</strong><br>';
+    str += "<strong style='color: #b6d9ee;'> - " + element['vn_desig'].toUpperCase() + " - </strong><br><text style='font-size: 17px'>" + element['vn_name'].split('KCGF')[0] + "KCGF" + element['vn_name'].split('KCGF')[1].toProperCase() + '</text><br><br>';
+    str += "<strong style='color: #b6d9ee;'> - " + element['va_desig'].toUpperCase() + " - </strong><br><text style='font-size: 17px'>" + element['va_name'].toProperCase() + '</text><br>';
 
     str += "</div>";
 
