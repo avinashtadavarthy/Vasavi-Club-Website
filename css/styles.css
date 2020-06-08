@@ -163,6 +163,51 @@ body {
 
 /* projects & photo-archives */
 
+.nav-center {
+    text-align: center;
+}
+
+.nav-center ul.nav {
+    display: inline-block;
+}
+
+.nav-center ul.nav li {
+    float: left;
+}
+
+.tab-pane {
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.empty {
+    height: 80vh;
+}
+
+/* projects & photo-archives individual elements */
+
+.imgcontainer {
+    justify-content: stretch;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.miniimg {
+    height: 180px;
+    object-fit: scale-down;
+    margin: 10px;
+}
+
+img.hover-shadow {
+    transition: 0.5s;
+}
+
+.hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* contact us */
 
 .questionnaire {
     text-align: center;

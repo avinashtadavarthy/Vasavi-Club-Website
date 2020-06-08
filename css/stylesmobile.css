@@ -14,4 +14,10 @@
     footer {
         font-size: 10px !important;
     }
+    /* projects & photo-archives individual elements */
+    .miniimg {
+        height: 20vh;
+        width: 44vw;
+        margin: 4px;
+    }
 }
