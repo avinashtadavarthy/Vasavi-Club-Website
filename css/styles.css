@@ -68,6 +68,8 @@ body {
     text-align: center;
 }
 
+/* past pst */
+
 .pstsub {
     background-color: var(--global-nav-active);
     color: white;
@@ -99,6 +101,8 @@ body {
     padding: 2px 5px;
     font-size: 20px;
 }
+
+/* board */
 
 #boarddata {
     justify-content: center;
@@ -133,6 +137,8 @@ body {
     border-radius: 15px;
 }
 
+/* members */
+
 #membersdata {
     justify-content: center;
     display: flex;
@@ -154,6 +160,9 @@ body {
     background-color: var(--global-nav-active);
     color: white;
 }
+
+/* projects & photo-archives */
+
 
 .questionnaire {
     text-align: center;
