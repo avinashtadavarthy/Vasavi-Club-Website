@@ -242,3 +242,21 @@ img.hover-shadow {
 .path p {
     display: inline;
 }
+
+/* vci and district */
+
+.vcipst {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.vcipstelement {
+    margin: 20px;
+}
+
+.vcipstname {
+    font-size: large;
+}
