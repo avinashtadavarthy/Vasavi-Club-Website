@@ -500,6 +500,7 @@ var members = [
 var elem = document.getElementById('membersdata');
 
 let i = 0;
+
 members.forEach(element => {
     let str = "";
 
