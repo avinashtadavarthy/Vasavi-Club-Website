@@ -1,86 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
-
-<url>
-  <loc>https://vasaviclub2starelitechennai.netlify.app/</loc>
-  <lastmod>2020-06-29T07:48:25+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://vasaviclub2starelitechennai.netlify.app/index.html</loc>
-  <lastmod>2020-06-29T07:48:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://vasaviclub2starelitechennai.netlify.app/html/about/aboutvasavi.html</loc>
-  <lastmod>2020-06-29T07:48:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://vasaviclub2starelitechennai.netlify.app/html/about/aboutus.html</loc>
-  <lastmod>2020-06-29T07:48:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://vasaviclub2starelitechennai.netlify.app/html/about/board2020.html</loc>
-  <lastmod>2020-06-29T07:48:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://vasaviclub2starelitechennai.netlify.app/html/about/structure.html</loc>
-  <lastmod>2020-06-29T07:48:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://vasaviclub2starelitechennai.netlify.app/html/about/pastpst.html</loc>
-  <lastmod>2020-06-29T07:48:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://vasaviclub2starelitechennai.netlify.app/html/members.html</loc>
-  <lastmod>2020-06-29T07:48:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://vasaviclub2starelitechennai.netlify.app/html/archives/photos.html</loc>
-  <lastmod>2020-06-29T07:48:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://vasaviclub2starelitechennai.netlify.app/html/archives/tours.html</loc>
-  <lastmod>2020-06-29T07:48:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://vasaviclub2starelitechennai.netlify.app/html/archives/videos.html</loc>
-  <lastmod>2020-06-29T07:48:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://vasaviclub2starelitechennai.netlify.app/html/projects.html</loc>
-  <lastmod>2020-06-29T07:48:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://vasaviclub2starelitechennai.netlify.app/html/howtojoin.html</loc>
-  <lastmod>2020-06-29T07:48:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://vasaviclub2starelitechennai.netlify.app/html/contact.html</loc>
-  <lastmod>2020-06-29T07:48:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://vasaviclub2starelitechennai.netlify.app/html/district.html</loc>
-  <lastmod>2020-06-29T07:48:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-
-
+  <url>
+    <loc>https://www.vasaviclubelitechennai.in/</loc>
+    <lastmod>2020-07-20T16:27:54+00:00</lastmod>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://www.vasaviclubelitechennai.in/html/about/aboutvasavi</loc>
+    <lastmod>2020-07-20T16:27:54+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.vasaviclubelitechennai.in/html/about/aboutus</loc>
+    <lastmod>2020-07-20T16:27:54+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.vasaviclubelitechennai.in/html/about/board2020</loc>
+    <lastmod>2020-07-20T16:27:54+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.vasaviclubelitechennai.in/html/about/structure</loc>
+    <lastmod>2020-07-20T16:27:54+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.vasaviclubelitechennai.in/html/about/pastpst</loc>
+    <lastmod>2020-07-20T16:27:54+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.vasaviclubelitechennai.in/html/members</loc>
+    <lastmod>2020-07-20T16:27:54+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.vasaviclubelitechennai.in/html/archives/photos</loc>
+    <lastmod>2020-07-20T16:27:54+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.vasaviclubelitechennai.in/html/archives/tours</loc>
+    <lastmod>2020-07-20T16:27:54+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.vasaviclubelitechennai.in/html/archives/videos</loc>
+    <lastmod>2020-07-20T16:27:54+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.vasaviclubelitechennai.in/html/projects</loc>
+    <lastmod>2020-07-20T16:27:54+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.vasaviclubelitechennai.in/html/howtojoin</loc>
+    <lastmod>2020-07-20T16:27:54+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.vasaviclubelitechennai.in/html/contact</loc>
+    <lastmod>2020-07-20T16:27:54+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.vasaviclubelitechennai.in/html/district</loc>
+    <lastmod>2020-07-20T16:27:54+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
 </urlset>
