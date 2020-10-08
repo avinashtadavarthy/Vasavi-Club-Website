@@ -80,6 +80,19 @@ body {
         );
 }
 
+/* countdown */
+#countdown {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    color: white;
+    font-size: 15rem;
+    background-color: rgba(0, 0, 0);
+    padding-top: 40vh;
+    text-align: center;
+}
+
 /* modal box */
 /* The Modal (background) */
 .modal {

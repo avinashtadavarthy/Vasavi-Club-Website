@@ -32,6 +32,10 @@
 </head>
 
 <body>
+  <!-- countdown -->
+  <!-- <div style="background-color: black; height: 100vh; width: 100vw;"></div> -->
+  <div id="countdown"></div>
+
   <div class="container-fluid">
     <div include-html="./html/components/header.html"></div>
 
@@ -189,6 +193,9 @@
     // Get the modal
     var modal = document.getElementById("myModal");
 
+    // Get the countdown div
+    var countdown = document.getElementById("countdown");
+
     // Get the button that opens the modal
     var btn = document.getElementById("myBtn");
 
@@ -215,10 +222,32 @@
     $(document).ready(function () {
       currLoc = $(location).attr('href');
       hel = currLoc.split('#');
+      countdown.style.display = "none";
       if (hel[1] == 'showModal') {
-        modal.style.display = "block";
-        document.getElementById("inaug").innerHTML = "Inaugurated now by VCI President";
+        countdown.style.display = "block";
+        setTimeout(() => {
+          countdown.innerHTML = 5;
+        }, 0);
+        setTimeout(() => {
+          countdown.innerHTML = 4;
+        }, 1000);
+        setTimeout(() => {
+          countdown.innerHTML = 3;
+        }, 2000);
+        setTimeout(() => {
+          countdown.innerHTML = 2;
+        }, 3000);
+        setTimeout(() => {
+          countdown.innerHTML = 1;
+        }, 4000);
       }
+      setTimeout(function () {
+        countdown.style.display = "none";
+        if (hel[1] == 'showModal') {
+          modal.style.display = "block";
+          document.getElementById("inaug").innerHTML = "Inaugurated now by VCI President";
+        }
+      }, 5000);
     });
 
     includeHTML();
