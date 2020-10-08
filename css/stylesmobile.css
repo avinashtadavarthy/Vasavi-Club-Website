@@ -20,4 +20,22 @@
         width: 44vw;
         margin: 4px;
     }
+    /* modal */
+    .modal-content {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    /* modal */
+    .modal-content {
+        width: 80%;
+    }
+    .inaug-images {
+        flex-direction: column;
+        align-items: center;
+    }
+    .confetti {
+        width: 60%;
+    }
 }

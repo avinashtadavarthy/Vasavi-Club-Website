@@ -5,6 +5,7 @@
 .navbar {
     background-color: var(--global-nav-background);
     text-align: center;
+    z-index: -1;
 }
 
 .navbar a {
