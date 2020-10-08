@@ -1,17 +1,19 @@
 :root {
-    --global-font-family: 'Manrope', sans-serif;
+    --global-font-family: "Manrope", sans-serif;
     --global-nav-background: #162a51;
     --global-nav-active: #2351a3;
     --global-header-gradient: linear-gradient(to top, #162a51, #304d88, #3f5d9b);
     /* --global-header-gradient: linear-gradient( #a5c9eb, #dae0f2, #ffffff); */
     --global-footer-background: #a5c9eb;
+    --global-inaug-banner: rgba(0, 199, 0, 0.705);
 }
 
 html * {
     font-family: var(--global-font-family);
 }
 
-html, body {
+html,
+body {
     width: 100%;
     height: 100%;
     margin: 0px;
@@ -54,6 +56,79 @@ body {
     object-fit: contain;
     height: 110px;
 }
+
+/* INAUGURATION - START */
+.inaug {
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    background: linear-gradient(
+            -60deg,
+            transparent,
+            33.33%,
+            var(--global-inaug-banner) 33.33%,
+            var(--global-inaug-banner) 66.66%,
+            transparent 66.66%
+        ),
+        linear-gradient(
+            60deg,
+            transparent,
+            33.33%,
+            var(--global-inaug-banner) 33.33%,
+            var(--global-inaug-banner) 66.66%,
+            transparent 66.66%
+        );
+}
+
+/* modal box */
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: absolute; /* Stay in place */
+  z-index: 10; /* Sit on top */
+  padding-top: 190px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto;
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  text-align: center;
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#myBtn {
+    background-color: transparent;
+    border: none;
+}
+
+#myBtn:hover {
+    color: white;
+}
+/* INAUGURATION - END */
 
 .pstinfo {
     color: white;

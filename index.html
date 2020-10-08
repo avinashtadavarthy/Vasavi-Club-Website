@@ -76,6 +76,38 @@
         <p>/</p>
       </div>
 
+      <div class="row inaug" id="inaugModal">
+        <h3>Website Inauguration</h3>
+        <p><strong>October 11, 2020</strong></p>
+        <!-- Trigger/Open The Modal -->
+        <button id="myBtn">-( Click Here )-</button>
+      </div>
+
+      <!-- modal -->
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close" style="margin-right: 10px;">&times;</span>
+          <div style="background-color: #2351a3; color: white; padding:10px;">
+            <h2 style="font-size: 60px;">We are now live!!!</h2>
+            <h5>Vasavi Club 2* KCGF Elite Chennai</h5>
+            <h5>Vanitha Club Elite Chennai</h5>
+          </div>
+          <h4 style="background-color: #88b0f5; padding: 10px;"><strong>First ever Vasavi Club in VCI to host a
+              website</strong></h4>
+          <h2 id="inaug">Inauguration by VCI President</h2>
+          <div>
+            <p><strong class="vcipstname">Vn. Tiriveedhi Venugopal</strong></p>
+            <img class="vcipstelement" src="../assets/vci/intPresi.jpg">
+          </div>
+          <p>Date: 11th October, 2020</p>
+        </div>
+
+      </div>
+      <!-- modal -->
+
       <div class="row">
         <div class="col-sm-8 col-xs-12 col-sm-push-2">
           <!-- carousel -->
@@ -152,6 +184,41 @@
   <div include-html="./html/components/normal_footer.html"></div>
 
   <script>
+    // Get the modal
+    var modal = document.getElementById("myModal");
+
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks on the button, open the modal
+    btn.onclick = function () {
+      modal.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+      modal.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+
+    $(document).ready(function () {
+      currLoc = $(location).attr('href');
+      hel = currLoc.split('#');
+      if (hel[1] == 'showModal') {
+        modal.style.display = "block";
+        document.getElementById("inaug").innerHTML = "Inaugurated now by VCI President";
+      }
+    });
+
     includeHTML();
   </script>
 </body>
