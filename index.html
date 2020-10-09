@@ -196,6 +196,9 @@
     // Get the countdown div
     var countdown = document.getElementById("countdown");
 
+    // Get navbar element
+    var navbar = document.getElementsByClassName("navbar");
+
     // Get the button that opens the modal
     var btn = document.getElementById("myBtn");
 
@@ -205,17 +208,20 @@
     // When the user clicks on the button, open the modal
     btn.onclick = function () {
       modal.style.display = "block";
+      navbar[0].style.zIndex = "-1";
     }
 
     // When the user clicks on <span> (x), close the modal
     span.onclick = function () {
       modal.style.display = "none";
+      navbar[0].style.zIndex = "";
     }
 
     // When the user clicks anywhere outside of the modal, close it
     window.onclick = function (event) {
       if (event.target == modal) {
         modal.style.display = "none";
+        navbar[0].style.zIndex = "";
       }
     }
 
@@ -225,6 +231,7 @@
       countdown.style.display = "none";
       if (hel[1] == 'showModal') {
         countdown.style.display = "block";
+        navbar[0].style.zIndex = "-1";
         setTimeout(() => {
           countdown.innerHTML = 5;
         }, 0);
@@ -245,6 +252,7 @@
         countdown.style.display = "none";
         if (hel[1] == 'showModal') {
           modal.style.display = "block";
+          navbar[0].style.zIndex = "-1";
           document.getElementById("inaug").innerHTML = "Inaugurated now by VCI President";
         }
       }, 5000);
